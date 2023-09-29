@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Horarioasistencia</string>
+    <string name="tituloadmin">Administrador</string>
+    <string name="tituloagregarempleado">AGREGAR EMPLEADO</string>
+    <string name="Titulonombre">Nombre:</string>
+    <string name="Titulosemana">Semana:</string>
+    <string name="Titulopagos">PAGO POR HORA</string>
+    <string name="pagomiercoles">Miercoles:</string>
+    <string name="Pagojueves">Jueves:</string>
+    <string name="pagoviernes">Viernes:</string>
+    <string name="Pagosabado">Sabado:</string>
+    <string name="pagodomingo">Domingo:</string>
+    <string name="pagolunes">Lunes:</string>
+    <string name="pagohoraextra">Hora extra:</string>
+    <string name="tituloid">ID:</string>
+    <string name="titulomodificarempleado">MODIFICAR EMPLEADO</string>
+</resources>
