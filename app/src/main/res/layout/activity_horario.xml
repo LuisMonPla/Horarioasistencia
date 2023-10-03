@@ -22,5 +22,5 @@
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_search"
         tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="38dp" />
+        tools:layout_editor_absoluteY="53dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
