@@ -21,6 +21,6 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         app:srcCompat="@android:drawable/ic_menu_search"
-        tools:layout_editor_absoluteX="286dp"
-        tools:layout_editor_absoluteY="53dp" />
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="32dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
