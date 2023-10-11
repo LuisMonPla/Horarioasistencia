@@ -37,7 +37,7 @@
         android:layout_marginTop="28dp"
         android:text="@string/Titulosemana"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextText2"
+        app:layout_constraintEnd_toStartOf="@+id/txtnombre"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -49,12 +49,12 @@
         android:layout_marginTop="20dp"
         android:text="@string/Titulonombre"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        app:layout_constraintEnd_toStartOf="@+id/txtsemana"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/txtsemana"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -62,10 +62,10 @@
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtnombre" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/txtnombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -82,7 +82,7 @@
         android:layout_marginTop="10dp"
         android:text="@string/pagomiercoles"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
+        app:layout_constraintEnd_toStartOf="@+id/txtmiercoles"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
@@ -92,7 +92,7 @@
         android:layout_marginTop="13dp"
         android:text="@string/Pagojueves"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber3"
+        app:layout_constraintEnd_toStartOf="@+id/txtjueves"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <TextView
@@ -102,7 +102,7 @@
         android:layout_marginTop="13dp"
         android:text="@string/pagoviernes"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber4"
+        app:layout_constraintEnd_toStartOf="@+id/txtviernes"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     <TextView
@@ -112,7 +112,7 @@
         android:layout_marginTop="13dp"
         android:text="@string/Pagosabado"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber5"
+        app:layout_constraintEnd_toStartOf="@+id/txtsabado"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
@@ -122,7 +122,7 @@
         android:layout_marginTop="13dp"
         android:text="@string/pagodomingo"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber6"
+        app:layout_constraintEnd_toStartOf="@+id/txtdomingo"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <TextView
@@ -132,11 +132,11 @@
         android:layout_marginTop="13dp"
         android:text="@string/pagolunes"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber7"
+        app:layout_constraintEnd_toStartOf="@+id/txtlunes"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/txtmiercoles"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -147,64 +147,64 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <EditText
-        android:id="@+id/editTextNumber5"
+        android:id="@+id/txtsabado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber4" />
+        app:layout_constraintTop_toBottomOf="@+id/txtviernes" />
 
     <EditText
-        android:id="@+id/editTextNumber7"
+        android:id="@+id/txtlunes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber6" />
+        app:layout_constraintTop_toBottomOf="@+id/txtdomingo" />
 
     <EditText
-        android:id="@+id/editTextNumber6"
+        android:id="@+id/txtdomingo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber5" />
+        app:layout_constraintTop_toBottomOf="@+id/txtsabado" />
 
     <EditText
-        android:id="@+id/editTextNumber8"
+        android:id="@+id/txthoraextra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber7" />
+        app:layout_constraintTop_toBottomOf="@+id/txtlunes" />
 
     <EditText
-        android:id="@+id/editTextNumber4"
+        android:id="@+id/txtviernes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtjueves" />
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/txtjueves"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtmiercoles" />
 
     <TextView
         android:id="@+id/textView12"
@@ -213,11 +213,11 @@
         android:layout_marginTop="13dp"
         android:text="@string/pagohoraextra"
         android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber8"
+        app:layout_constraintEnd_toStartOf="@+id/txthoraextra"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnrostro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -225,10 +225,10 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber8" />
+        app:layout_constraintTop_toBottomOf="@+id/txthoraextra" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
+        android:id="@+id/btnguardar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -239,7 +239,7 @@
         app:srcCompat="@android:drawable/ic_menu_save" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnvolvera"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="30dp"
